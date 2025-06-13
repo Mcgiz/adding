@@ -3172,9 +3172,4 @@ input, select, textarea {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
-/* 可选：给 fit primary 组合视觉效果 */
-.video.fit.primary iframe {
-  border-radius: 0.35em;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-}
 
