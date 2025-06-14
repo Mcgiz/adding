@@ -3152,16 +3152,15 @@ input, select, textarea {
     margin: 0 auto 1rem auto;
 }
 
-.video {
+.video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 ratio */
+  padding-bottom: 56.25%; /* 16:9 */
   height: 0;
   overflow: hidden;
   width: 100%;
-  margin: 2em 0;
 }
 
-.video iframe {
+.video-container iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -3169,8 +3168,5 @@ input, select, textarea {
   height: 100%;
   border: 0;
   border-radius: 0;
-  box-shadow: none; 
-  /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.03); */
-}
-
+  box-shadow: none;
 
